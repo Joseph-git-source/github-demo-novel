@@ -1,0 +1,75 @@
+
+🔧 What this means
+Git commands like git status, git log, or gitkraken (if it's trying to open a Git repo) only work inside a Git-initialized folder — i.e., one that contains a .git directory.
+
+✅ How to fix it
+You have 2 main options:
+
+Option 1: Go into a Git repo
+Navigate into a folder that already is a Git repository:
+
+bash
+Copy
+Edit
+cd path/to/your/git/project
+Then try again:
+
+bash
+Copy
+Edit
+git status
+Option 2: Initialize a new Git repo
+If you want to make your current folder a Git repo, runing:
+
+bash
+Copy
+Edit
+git init
+This will create a .git/ folder, and Git commands will start working there.
+
+💡 Tip for GitKraken users
+If you launched GitKraken and saw that error, make sure you open a repository inside GitKraken:
+
+Click "Open a Repo" or "Clone a Repo".
+
+Navigate to an existing Git repository or clone one from GitHub/GitLab/etc.
+
+Would you like help initializing a Git project or cloning one from a remote repo like GitHub?
+
+
+🔧 What this means
+Git commands like git status, git log, or gitkraken (if it's trying to open a Git repo) only work inside a Git-initialized folder — i.e., one that contains a .git directory.
+
+✅ How to fix it
+You have 2 main options:
+
+Option 1: Go into a Git repo
+Navigate into a folder that already is a Git repository:
+
+bash
+Copy
+Edit
+cd path/to/your/git/project
+Then try again:
+
+bash
+Copy
+Edit
+git status
+Option 2: Initialize a new Git repo
+If you want to make your current folder a Git repo, run:
+
+bash
+Copy
+Edit
+git init
+This will create a .git/ folder, and Git commands will start working there.
+
+💡 Tip for GitKraken users
+If you launched GitKraken and saw that error, make sure you open a repository inside GitKraken:
+
+Click "Open a Repo" or "Clone a Repo".
+
+Navigate to an existing Git repository or clone one from GitHub/GitLab/etc.
+
+Would you like help initializing a Git project or cloning one from a remote repo like GitHub?

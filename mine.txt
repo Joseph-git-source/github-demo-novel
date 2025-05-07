@@ -1,0 +1,92 @@
+Table of Contents:
+Why does the “fatal: not a git repository” error occur?
+To fix “fatal: not a git repository”, try these steps
+Preventing “fatal: not a git repository”
+How do Git repositories work?
+a. Stage the files
+b. Commit the changes
+c. Push the code
+What are some common Git errors?
+a. Permission Deniel
+b. Failed to Push Some Refs
+c. fatal: A branch named <branch-name> already exists.
+d. Can’t switch between branches
+What causes Git errors?
+Conclusion
+Why does the “fatal: not a git repository” error occur?
+The fatal: not a git repository error makes it clear that you’re not in a git repository. There can be a few reasons why the error occurs:
+
+You are in the wrong working directory: You tried to run the command but did not navigate to the project folder where the git repository (git folder) is located.
+You mistyped the path to the repo: Double check your git command and make sure you typed the correct path.
+You didn’t initialize the Git repository: You are in the project directory, but you didn’t initialize the Git repository for that project folder.
+Your HEAD file is corrupted: You can run the command cat .git/HEAD and see that the HEAD branch is working properly and includes the branch you are working on.
+To fix “fatal: not a git repository”, try these steps
+Make sure you have navigated to the right directory
+To solve the first two situations, in which you are in the wrong directory or mistyped the path to the repo, check the folder in which you are currently trying to run the command. You can check the current folder with ls in Linux or dir in Windows. Also make sure you have not mistyped the path to the repo.
+
+Is that the correct folder? If not then simply use the cd command to navigate to the correct path.
+
+There is a simple trick that you can use in Windows to be sure that you always open a command prompt in the correct folder. Navigate to the project directory using the file explorer and then type in the search bar, cmd. This will open a command prompt to the current folder path.
+
+The trick for always opening a command prompt in the correct folder
+The trick for always opening a command prompt in the correct folder
+Initialize your repository
+If the problem is that you didn’t initialize your git repository, here is how to do that: You need to navigate to the correct folder and then run the command git init, which will create a new empty Git repository or reinitialize an existing one.
+
+Alternatively, clone an existing repo into your project folder.
+
+Preventing “fatal: not a git repository”
+When you run a Git command, the first step Git will take is to determine the repository you are in. To do this, it will go up in the file system path until it finds a folder called .git. Basically, the repository starts with the directory that has a .git folder as a direct child.
+
+To prevent the fatal:not a git repository error, you need to make sure that you are in a Git repository before running any commands. One way you can do this is to check for the existence of the .git folder.
+
+That period in front of the .git folder means that it’s a hidden folder. Therefore, it will not appear in the file explorer unless you have explicitly set it to show hidden folders.
+
+On Windows, you can do this from the iew tab.
+
+Table of Contents:
+Why does the “fatal: not a git repository” error occur?
+To fix “fatal: not a git repository”, try these steps
+Preventing “fatal: not a git repository”
+How do Git repositories work?
+a. Stage the files
+b. Commit the changes
+c. Push the code
+What are some common Git errors?
+a. Permission Denied
+b. Failed to Push Some Refs
+c. fatal: A branch named <branch-name> already exists.
+d. Can’t switch between branches
+What causes Git errors?
+Conclusion
+Why does the “fatal: not a git repository” error occur?
+The fatal: not a git repository error makes it clear that you’re not in a git repository. There can be a few reasons why the error occurs:
+
+You are in the wrong working directory: You tried to run the command but did not navigate to the project folder where the git repository (git folder) is located.
+You mistyped the path to the repo: Double check your git command and make sure you typed the correct path.
+You didn’t initialize the Git repository: You are in the project directory, but you didn’t initialize the Git repository for that project folder.
+Your HEAD file is corrupted: You can run the command cat .git/HEAD and see that the HEAD branch is working properly and includes the branch you are working on.
+To fix “fatal: not a git repository”, try these steps
+Make sure you have navigated to the right directory
+To solve the first two situations, in which you are in the wrong directory or mistyped the path to the repo, check the folder in which you are currently trying to run the command. You can check the current folder with ls in Linux or dir in Windows. Also make sure you have not mistyped the path to the repo.
+
+Is that the correct folder? If not then simply use the cd command to navigate to the correct path.
+
+There is a simple trick that you can use in Windows to be sure that you always open a command prompt in the correct folder. Navigate to the project directory using the file explorer and then type in the search bar, cmd. This will open a command prompt to the current folder path.
+
+The trick for always opening a command prompt in the correct folder
+The trick for always opening a command prompt in the correct folder
+Initialize your repository
+If the problem is that you didn’t initialize your git repository, here is how to do that: You need to navigate to the correct folder and then run the command git init, which will create a new empty Git repository or reinitialize an existing one.
+
+Alternatively, clone an existing repo into your project folder.
+
+Preventing “fatal: not a git repository”
+When you run a Git command, the first step Git will take is to determine the repository you are in. To do this, it will go up in the file system path until it finds a folder called .git. Basically, the repository starts with the directory that has a .git folder as a direct child.
+
+To prevent the fatal:not a git repository error, you need to make sure that you are in a Git repository before running any commands. One way you can do this is to check for the existence of the .git folder.
+
+That period in front of the .git folder means that it’s a hidden folder. Therefore, it will not appear in the file explorer unless you have explicitly set it to show hidden folders.
+
+On Windows, you can do this from the iew tab.
+
