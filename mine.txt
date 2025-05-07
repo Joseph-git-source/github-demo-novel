@@ -70,13 +70,13 @@ To fix “fatal: not a git repository”, try these steps
 Make sure you have navigated to the right directory
 To solve the first two situations, in which you are in the wrong directory or mistyped the path to the repo, check the folder in which you are currently trying to run the command. You can check the current folder with ls in Linux or dir in Windows. Also make sure you have not mistyped the path to the repo.
 
-Is that the correct folder? If not then simply use the cd command to navigate to the correct path.
+Is that the correct foldeWould you like help initializing a Git project or cloning one from a remote repo like GitHub?r? If not then simply use the cd command to navigate to the correct path.
 
 There is a simple trick that you can use in Windows to be sure that you always open a command prompt in the correct folder. Navigate to the project directory using the file explorer and then type in the search bar, cmd. This will open a command prompt to the current folder path.
 
 The trick for always opening a command prompt in the correct folder
 The trick for always opening a command prompt in the correct folder
-Initialize your repository
+Initialize your repository 
 If the problem is that you didn’t initialize your git repository, here is how to do that: You need to navigate to the correct folder and then run the command git init, which will create a new empty Git repository or reinitialize an existing one.
 
 Alternatively, clone an existing repo into your project folder.

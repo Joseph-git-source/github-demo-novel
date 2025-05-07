@@ -73,3 +73,11 @@ Click "Open a Repo" or "Clone a Repo".
 Navigate to an existing Git repository or clone one from GitHub/GitLab/etc.
 
 Would you like help initializing a Git project or cloning one from a remote repo like GitHub?
+💡 Tip for GitKraken users
+If you launched GitKraken and saw that error, make sure you open a repository inside GitKraken:
+
+Click "Open a Repo" or "Clone a Repo".
+
+Navigate to an existing Git repository or clone one from GitHub/GitLab/etc.
+
+Would you like help initializing a Git project or cloning one from a remote repo like GitHub?Would you like help initializing a Git project or cloning one from a remote repo like GitHub?
